@@ -1,5 +1,5 @@
 cask "androidfilesync" do
-  version "2.0"
+  version "2.1.0"
   sha256 "7b3ec47f39c3d64d5faab9f654e9c450a30a1acd068195f0765b40640673dba8" 
   url "https://github.com/Santosh7017/AndroidFileSync/releases/download/v#{version}/AndroidFileSync.dmg"
   name "AndroidFileSync"
