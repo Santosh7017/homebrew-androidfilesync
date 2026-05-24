@@ -1,6 +1,6 @@
 cask "androidfilesync" do
   version "2.3.0"
-  sha256 "180e180f545396b861ee5312f1bb4d85b15fb47c0ee0cf33ff2087635e068d04" 
+  sha256 "4de1be220d87a7bb214c452f0490552f1a532337921e950e50d77582741664ec" 
   url "https://github.com/Santosh7017/AndroidFileSync/releases/download/v#{version}/AndroidFileSync.dmg"
   name "AndroidFileSync"
   desc "Free, native macOS app to transfer files and manage Android devices over WiFi or USB"
