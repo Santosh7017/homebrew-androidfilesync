@@ -9,7 +9,7 @@ cask "androidfilesync" do
   app "AndroidFileSync.app"
 
   # This automatically removes the quarantine flag after installation!
-  postflight do
+  postflight_steps do
     system_command "xattr",
                    args: ["-cr", "#{appdir}/AndroidFileSync.app"],
                    sudo: false
