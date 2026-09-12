@@ -11,8 +11,7 @@ cask "androidfilesync" do
   # This automatically removes the quarantine flag after installation!
   postflight_steps do
     run "xattr",
-        args: ["-cr", "AndroidFileSync.app"],
-        base: :appdir
+        args: ["-cr", "AndroidFileSync.app"]
   end
 
   zap trash: [
