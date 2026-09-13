@@ -12,9 +12,8 @@ cask "androidfilesync-beta" do
 
   # This automatically removes the quarantine flag after installation!
   postflight_steps do
-    system_command "xattr",
-                   args: ["-cr", "#{appdir}/AndroidFileSync.app"],
-                   sudo: false
+    run "xattr",
+        args: ["-cr", "AndroidFileSync.app"]
   end
 
   zap trash: [
