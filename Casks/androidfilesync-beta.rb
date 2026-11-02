@@ -1,6 +1,6 @@
 cask "androidfilesync-beta" do
   version "2.3.3-beta.1"
-  sha256 "5381dcfd72a3dc3021f272162e7b2a290886b7d426d4aad62ab379fb80e16405" 
+  sha256 "eca000bac3b527a29611dc32f1743c5a4a688711d857b97c90b7f3d28c05d1ea" 
   url "https://github.com/Santosh7017/AndroidFileSync/releases/download/v#{version}/AndroidFileSync.dmg"
   name "AndroidFileSync Beta"
   desc "Free, native macOS app to transfer files and manage Android devices over WiFi or USB (Beta)"
